@@ -4,15 +4,17 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      database: 'node_blog_development'
+      database: 'node_blog_development',
+      user: 'deploy',
+      password: 'pointer'
     }
   },
   staging: {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user: 'username',
-      password: 'password'
+      user: 'deploy',
+      password: 'pointer'
     },
     pool: {
       min: 2,
@@ -27,8 +29,8 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'my_db',
-      user: 'username',
-      password: 'password'
+      user: 'deploy',
+      password: 'pointer'
     },
     pool: {
       min: 2,
