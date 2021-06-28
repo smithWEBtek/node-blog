@@ -13,6 +13,8 @@
     "pug": "^3.0.2"
   },
   "scripts": {
-    "start": "node index.js"
-  }
+    "start": "node index.js",
+    "startnodemon": "nodemon --watch ."
+  },
+  "devDependencies": {}
 }
